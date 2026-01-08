@@ -97,8 +97,8 @@ This project aims to predict the selling price of a car based on its features su
  * Achieved the following results:
 
  * Metric	Value
-   * R² Score	0.78
-   * Adjusted R² Score	0.76
+   * R² Score=	0.8310659101766334
+   * Adjusted R² Score= 0.8300828947643462
 
  * The R² score indicates that the model explains a significant portion of variance in car prices
 
