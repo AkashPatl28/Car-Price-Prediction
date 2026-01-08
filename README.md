@@ -2,11 +2,11 @@
 This machine learning project focuses on predicting outcomes using structured data by applying data preprocessing, categorical encoding, and model training techniques. The project demonstrates the complete ML workflow from data cleaning and feature engineering to model building and evaluation using Python and scikit learn.
 
 
-# Car Price Prediction using Machine Learning
+## Car Price Prediction using Machine Learning
 
 This project aims to predict the selling price of a car based on its features such as model, fuel type, transmission, and other relevant attributes. The goal is to demonstrate a complete machine learning pipeline including data preprocessing, feature encoding, model training, and evaluation.
 
-#Project Workflow
+## Project Workflow
 
  1. Dataset loading and initial inspection
 
@@ -24,7 +24,7 @@ This project aims to predict the selling price of a car based on its features su
 
  8. Final price prediction on unseen data
 
-# Features Used
+#$ Features Used
 
  1. Car model
 
@@ -40,7 +40,7 @@ This project aims to predict the selling price of a car based on its features su
 
  7. Other numerical and categorical attributes
 
-# Machine Learning Techniques
+#$ Machine Learning Techniques
 
  1. Supervised learning
 
@@ -50,7 +50,7 @@ This project aims to predict the selling price of a car based on its features su
 
  4. Data preprocessing
 
-# Technologies and Tools
+## Technologies and Tools
 
  1. Python
 
@@ -62,11 +62,11 @@ This project aims to predict the selling price of a car based on its features su
 
  5. Kaggle
 
-# Dataset Description
+## Dataset Description
 
  The dataset used in this project is ford.csv, which contains detailed information about used Ford cars. It is designed to help build a machine learning model that predicts car prices based on multiple features.
 
-# Dataset Features
+## Dataset Features
 
  1. The dataset includes the following key attributes:
 
@@ -88,5 +88,24 @@ This project aims to predict the selling price of a car based on its features su
 
  10. engineSize: Engine capacity
 
-# Results
-The trained model is able to predict car prices with reasonable accuracy based on the provided features. Performance is evaluated using appropriate regression metrics.
+## Results
+
+ * Built a Linear Regression model to predict car selling prices using structured car dataset
+
+ * Model performance was evaluated on test data using regression metrics
+
+ * Achieved the following results:
+
+ * Metric	Value
+   * R² Score	0.78
+   * Adjusted R² Score	0.76
+
+ * The R² score indicates that the model explains a significant portion of variance in car prices
+
+ * Adjusted R² confirms model reliability while accounting for the number of input features
+
+## Future Improvements
+
+ * Compare with advanced regression algorithms (Random Forest, XGBoost)
+
+ * Use cross-validation
